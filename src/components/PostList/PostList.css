@@ -1,0 +1,39 @@
+.cursor{
+    cursor: -webkit-grab;
+  
+}
+
+.wd{
+    width: 100%;
+}
+
+.flex-options{
+    display: flex;
+    justify-content: space-around;
+}
+
+.style-btn{
+    background: #603bbb00;
+    color: #000;
+    padding: 8px 0;
+}
+
+.style-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.style-btn:hover{
+    background: #000000a3;
+    color: white;
+}
+
+.card-create-post{
+    padding: 7px 20px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.created_post{
+    margin: 0;
+    font-size: 15px;
+}

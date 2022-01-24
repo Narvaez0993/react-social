@@ -1,0 +1,214 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.auth__header {
+  padding: 13vh 1rem calc(11vh + 35px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  background-image: linear-gradient(#3280e4, #584dc3);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+.auth__header:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.auth__logo {
+  position: relative;
+  z-index: 18;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+.auth__body {
+  padding-bottom: 2rem;
+}
+.auth__form {
+  min-width: 280px;
+  max-width: 340px;
+  margin: auto;
+  margin-top: -40px;
+  padding: 0 10px;
+  position: relative;
+  z-index: 9;
+}
+.auth__form_body {
+  padding: 0.7rem 1.5rem 35px;
+  border-radius: 0.5rem;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.auth__form_title {
+  font-size: 1.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+.auth__form_actions {
+  text-align: center;
+  padding: 0 2rem;
+  margin-top: -25px;
+}
+.auth__form_actions .btn {
+  border-radius: 30px;
+  box-shadow: 0 2px 12px rgba(50, 128, 228, 0.5);
+}*/
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-login {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: #603bbb;
+  cursor: pointer;
+}
+
+.login {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  background: #2c2c2c;
+  display: flex;
+}
+
+.login .loginContainer {
+  padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgba(22, 24, 47, 1) 0%,
+    rgba(38, 20, 72, 0.9) 59%,
+    rgba(17, 27, 75, 0.9) 100%
+  );
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+}
+
+.login .loginContainer label {
+  color: white;
+  margin: 14px 0;
+  display: block;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.login .loginContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: #fff;
+  font-size: 18px;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: yellow;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: red;
+}
+
+.login .loginContainer .errorMsg {
+  color: red;
+  font-size: 16px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgba(22, 24, 47, 1) 0%,
+    rgba(38, 20, 72, 0.9) 59%,
+    rgba(17, 27, 75, 0.9) 100%
+  );
+}
+
+.hero nav {
+  background: #603bbb;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero nav h2 {
+  color: #fff;
+}
+
+.hero nav button {
+  width: auto;
+  padding: 10px;
+  margin-left: 10px;
+  background: #3a2b58;
+}
+
+.hero nav button:hover {
+  transition: ease 2s;
+  background: #fff;
+}
+
+.hero nav button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero nav button a:hover {
+  color: #3a2b58;
+}
+
+h1{
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}

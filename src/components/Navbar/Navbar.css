@@ -1,0 +1,52 @@
+#titule {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+}
+
+#titule2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.navHome{
+    background-color: #ffffff;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+}
+
+#card-social{
+    background-color: #CECECE;
+    max-width: 50rem;
+    margin-left: 10px;
+    width: auto; 
+    margin: 30px auto;
+}
+
+.style-text{
+    margin-right: 23px;
+    color: #7f7f7f;
+    font-size: 20px;
+    cursor: -webkit-grab;
+}
+
+.style-text:hover{
+    color: rgba(0,0,0,.7);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.ul-options{
+    cursor: -webkit-grab;
+}
+
+@media (max-width: 768px){
+   .mr{
+    margin: 17px 0 0 0;
+    text-align: center;
+   }
+
+   .style-text{
+    margin-right: 0px;  
+   }
+
+
+}
